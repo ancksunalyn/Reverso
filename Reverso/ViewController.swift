@@ -29,9 +29,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*translation.removeKey(theKey: "frenchWords")
-        translation.removeKey(theKey: "englishWords")
-        return*/
         buttons = [btFrancais, btEnglish]
         
         if translation.doesKeyExist(theKey: "frenchWords") {
